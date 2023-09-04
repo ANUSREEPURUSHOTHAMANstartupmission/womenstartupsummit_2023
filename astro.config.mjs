@@ -5,5 +5,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://ANUSREEPURUSHOTHAMANstartupmission.github.io',
+  base: '/womenstartupsummit_2023',
   integrations: [tailwind(), svelte()]
 });
